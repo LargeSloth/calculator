@@ -30,6 +30,7 @@ body {
     margin-left: .75em;
     font-size: 35px;
     color: white;
+    font-family: helvetica;
 }
 
 
@@ -85,17 +86,21 @@ body {
     color: white;
     background-color: rgb(54, 54, 54);
     font-size: 20px;
+    font-family: Helvetica;
 }
 
 /* UI Design For Controls */
 .divide, .multiply, .subtract, .add, .equals {
     color: white;
     background-color: orange;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 .clear, .toggle, .percent {
     color: white;
     font-size: 20px;
     background-color: grey;
+    font-family: Helvetica;
 }
