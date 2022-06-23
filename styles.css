@@ -1,24 +1,100 @@
+body {
+    background-color: rgba(155, 155, 155, 0.425);
+}
+
 .title {
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
+
+/* calculator itself for  */
 .container {
     height: 450px;
-    width: 450px;
-    border: 2px solid red;
+    width: 285px;
+    border: 2px solid rgb(255, 0, 0);
     margin-left: auto;
     margin-top: 8.5em;
     margin-right: auto;
+    background-color: black;
 }
 
+/* to be output text */
+#VO {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+    margin-right: .75em;
+    margin-left: .75em;
+    font-size: 35px;
+    color: white;
+}
+
+
+/* Display box */
 .display {
     height: 120px;
-    width: 440px;
-    border: 2px solid black;
+    width: 264px;
+    border: 2px solid rgb(255, 0, 0);
     margin-left: auto;
     margin-right: auto;
     margin-top: 1px;
+    
 }
 
+
+/* Box for controls and numbers */
+.controls {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    width: 264px;
+    height: 315px;
+    border: 2px solid red;
+    
+}
+
+/* UI Grid for Numbers and controls besides 0 */
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine,
+.clear, .toggle, .percent, .divide, .multiply, .subtract, .add, .equals, .decimal {
+    display: inline-grid;
+    align-items: center;
+    margin: 4px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* UI Grid for 0 */
+.zero {
+    display: inline-grid;
+    align-items: center;
+    margin: 4px;
+    height: 55px;
+    width: 122px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* UI Design For Numbers */
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine,
+.zero, .decimal {
+    color: white;
+    background-color: rgb(54, 54, 54);
+    font-size: 20px;
+}
+
+/* UI Design For Controls */
+.divide, .multiply, .subtract, .add, .equals {
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.clear, .toggle, .percent {
+    color: white;
+    font-size: 20px;
+    background-color: grey;
+}
