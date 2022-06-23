@@ -13,11 +13,12 @@ body {
 .container {
     height: 450px;
     width: 285px;
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
     margin-left: auto;
     margin-top: 8.5em;
     margin-right: auto;
     background-color: black;
+    border-radius: 12px;
 }
 
 /* to be output text */
@@ -36,7 +37,7 @@ body {
 .display {
     height: 120px;
     width: 264px;
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
     margin-left: auto;
     margin-right: auto;
     margin-top: 1px;
@@ -51,7 +52,7 @@ body {
     margin-top: 2px;
     width: 264px;
     height: 315px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
 
