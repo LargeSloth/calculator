@@ -104,3 +104,10 @@ body {
     background-color: grey;
     font-family: Helvetica;
 }
+
+.one:active, .two:active, .three:active, .four:active, .five:active,
+.six:active, .seven:active, .eight:active, .nine:active, .zero:active,
+.clear:active, .add:active, .subtract:active, .divide:active, .multiply:active,
+.equals:active, .toggle:active, .percent:active, .decimal:active {
+    transform: translateY(4px);
+}
